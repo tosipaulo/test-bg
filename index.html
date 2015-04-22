@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Teste Slide</title>
+    <!-- bxSlider CSS file -->
+<link href="jquery.bxslider..css" rel="stylesheet" />
+<link rel="stylesheet" type="text/css" href="style.css">
+    <!-- jQuery library (served from Google) -->
+<script src="jquery.min.js"></script>
+<!-- bxSlider Javascript file -->
+<script src="jquery.bxslider.js"></script>
+
+<script>
+
+$(document).ready(function(){
+  $('.bxslider').bxSlider({
+    auto: true,
+    adaptiveHeight: false,
+  mode: 'fade',
+  controls: false,
+  pager: false
+  });
+});
+</script>
+
+</head>
+<body>
+
+<header class="header">
+      <h1 class="logo">Logo</h1>
+      <nav>
+            <ul>
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">Produtos</a></li>
+                  <li><a href="#">Sobre nós</a></li>
+                  <li><a href="#">Contato</a></li>
+            </ul>
+      </nav>
+</header>
+
+<div class="highlight">
+      <ul class="bxslider">
+          <li><img src="http://www.placehold.it/1000x500" /></li>
+          <li><img src="http://www.placehold.it/1000x500" /></li>
+          <li><img src="http://www.placehold.it/1000x500" /></li>
+          <li><img src="http://www.placehold.it/1000x500" /></li>
+    </ul>
+  </div>
+
+
+
+
+
+
+</body>
+</html>
